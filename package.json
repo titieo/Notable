@@ -1,0 +1,47 @@
+{
+  "name": "Blog template",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fix-lint": "run-script-os",
+    "fix-lint:default": "(echo Attempting to fix lint... && markdownlint -c .markdownlint.json -p .markdownlintignore '**/*.md **/*.mdx' -f && echo Fixed successfully, please commit.) || (echo Fix failed! && exit 1)",
+    "fix-lint:win32": "(echo Attempting to fix lint... && markdownlint -c .markdownlint.json -p .markdownlintignore **/*.md **/*.mdx -f && echo Fixed successfully, please commit.) || (echo Fix failed! && exit 1)",
+    "lint": "run-script-os",
+    "lint:default": "(echo Linting... && markdownlint -c .markdownlint.json -p .markdownlintignore '**/*.md **/*.mdx' && echo Lint passed.) || (echo Lint failed! Please review and fix errors. && exit 1)",
+    "lint:win32": "(echo Linting... && markdownlint -c .markdownlint.json -p .markdownlintignore **/*.md **/*.mdx && echo Lint passed.) || (echo Lint failed! Please review and fix errors. && exit 1)",
+    "lint-ci": "run-script-os",
+    "lint-ci:default": "(echo Linting... && markdownlint -c .markdownlint.json -p .markdownlintignore '**/*.md **/*.mdx' && echo Lint passed.) || ((echo Lint failed, attempting fix... && markdownlint -c .markdownlint.json -p .markdownlintignore '**/*.md **/*.mdx' -f && echo Fix generated successfully. Please apply the following diff using git apply && git diff) || echo Fix failed! && exit 1)",
+    "lint-ci:win32": "(echo Linting... && markdownlint -c .markdownlint.json -p .markdownlintignore **/*.md **/*.mdx && echo Lint passed.) || ((echo Lint failed, attempting fix... && markdownlint -c .markdownlint.json -p .markdownlintignore **/*.md **/*.mdx -f && echo Fix generated successfully. Please apply the following diff using git apply && git diff) || echo Fix failed! && exit 1)",
+    "sort-dict": "node ./scripts/sortDict.js",
+    "spellcheck": "run-script-os",
+    "spellcheck:default": "(spellchecker --plugins spell indefinite-article repeated-words syntax-urls --dictionaries dictionary/en.txt dictionary/vi.txt --language vi en-US --files '**/*.md **/*.mdx'  && echo Spellcheck passed.) || (echo Spellcheck failed! Please review and fix errors/add words to dictionary as needed. && exit 1)",
+    "spellcheck:win32": "(spellchecker --plugins spell indefinite-article repeated-words syntax-urls --dictionaries dictionary/en.txt dictionary/vi.txt --language vi en-US --files **/*.md **/*.mdx  && echo Spellcheck passed.) || (echo Spellcheck failed! Please review and fix errors/add words to dictionary as needed. && exit 1)",
+    "test": "run-script-os",
+    "test:default": "npm run lint --silent; npm run spellcheck --silent",
+    "test:win32": "npm run lint --silent & npm run spellcheck --silent"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "3.1.9",
+    "@astrojs/rss": "4.0.9",
+    "@astrojs/sitemap": "3.2.1",
+    "@astrojs/svelte": "5.7.3",
+    "@astrojs/tailwind": "5.1.2",
+    "astro": "4.16.10",
+    "svelte": "^4.2.19",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "markdownlint": "^0.35.0",
+    "prettier": "3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "run-script-os": "^1.1.6",
+    "spellchecker-cli": "^6.2.0"
+  }
+}
