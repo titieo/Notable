@@ -13,21 +13,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
-		<style>
-			main {
-				/* width: calc(100% - 2em); */
-				/* max-width: 100%; */
-			}
-		</style>
 	</head>
 
-	<body style="background-image: url(/bg.svg)" class="bg-repeat-y">
+	<body style="background-image: url(/bg.svg)" class="bg-repeat-y w-screen min-h-100rem">
 		<Header />
-		<main class="font-content mx-auto w-2/3">
-			<article>
-				<div class="prose-xl lg:prose-2xl prose-headings:font-heading">
-					<div class="leading-none text-center mb-4 px-4">
-						<div class="mb-1 text-gray-500">
+		<main class="font-content mx-auto w-2/3 mt-12">
+			<article class="tracking-wide">
+				<div class="prose-xl lg:prose-2xl prose-headings:font-heading tracking-normal">
+					<div class="leading-none text-center">
+
+						<h1 class="mb-2">{title}</h1>
+                        <div class="mb-1 text-gray-500">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
@@ -37,8 +33,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 								)
 							}
 						</div>
-						<h1 class="mb-2">{title}</h1>
-						<hr />
+						<!-- <hr class="w-1/2"/> -->
 					</div>
 					<slot />
 				</div>

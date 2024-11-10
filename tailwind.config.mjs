@@ -5,6 +5,9 @@ export default {
 
     theme: {
         extend: {
+            minHeight: {
+                '100rem': '100rem',
+            },
             fontFamily: {
                 // sans: ['Inter', ...defaultTheme.fontFamily.sans],
                 // LumiosMarker
