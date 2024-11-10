@@ -10,6 +10,10 @@ export default {
                 // LumiosMarker
                 heading: ['LumiosMarker', ...defaultTheme.fontFamily.serif],
                 content: ['Tangerine', ...defaultTheme.fontFamily.sans],
+                GrowingGarden: [
+                    'GrowingGarden',
+                    ...defaultTheme.fontFamily.serif,
+                ],
             },
         },
     },
