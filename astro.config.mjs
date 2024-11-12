@@ -8,7 +8,8 @@ import svelte from '@astrojs/svelte';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://titieo016.github.io/notes/',
+    site: 'https://titieo016.github.io/',
+    base: '/notable/',
     integrations: [
         mdx(),
         sitemap(),

@@ -24,18 +24,12 @@ jobs:
                   submodules: 'recursive'
             - name: Setup Node
               uses: actions/setup-node@v4
-            - name: Setup Bun
-              uses: oven-sh/setup-bun@v2
+            - name: Install, build, and upload your site
+              uses: withastro/action@v3
               with:
-                  bun-version: latest
-            - name: Install Dependencies
-              run: bun install
-            - name: Build
-              run: bun run build
-            - name: Upload artifact
-              uses: actions/upload-pages-artifact@v3
-              with:
-                  path: ./dist/
+                  #   path: . # The root location of your Astro project inside the repository. (optional)
+                  node-version: 22 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
+                  package-manager: bun@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
     deploy:
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         environment:
@@ -57,8 +51,11 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: '22'
-                  cache: 'bun'
-                  cache-dependency-path: ./bun.lock
+                  #   cache: 'bun'
+                  #   cache-dependency-path: ./bun.lock
+            - uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: 'lts' # or "latest"
             - name: Install
               run: bun install
             - name: Lint

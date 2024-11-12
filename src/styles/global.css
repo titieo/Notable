@@ -5,26 +5,28 @@
 @layer base {
     @font-face {
         font-family: 'GrowingGarden';
-        src: url('/fonts/SVN-GrowingGarden-Regular.otf') format('opentype');
+        src: url('/notable/fonts/SVN-GrowingGarden-Regular.otf')
+            format('opentype');
         font-weight: 400;
         font-display: swap;
     }
     @font-face {
         font-family: 'GrowingGarden';
-        src: url('/fonts/SVN-GrowingGarden-script.otf') format('opentype');
+        src: url('/notable/fonts/SVN-GrowingGarden-script.otf')
+            format('opentype');
         font-weight: 400;
         font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: 'LumiosMarker';
-        src: url('/fonts/SVN-LumiosMarker.otf') format('opentype');
+        src: url('/notable/fonts/SVN-LumiosMarker.otf') format('opentype');
         /* font-weight: 400; */
         font-display: swap;
     }
     @font-face {
         font-family: 'Tangerine';
-        src: url('/fonts/SVN-Tangerine HB.otf') format('opentype');
+        src: url('/notable/fonts/SVN-Tangerine HB.otf') format('opentype');
         /* font-weight: 400; */
         font-display: swap;
     }
