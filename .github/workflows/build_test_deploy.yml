@@ -31,7 +31,7 @@ jobs:
                   node-version: 22 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
                   package-manager: bun@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
     deploy:
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         environment:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
