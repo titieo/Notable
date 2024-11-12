@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
-    "markdownlint": "^0.35.0",
+    "markdownlint-cli": "^0.42.0",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "run-script-os": "^1.1.6",
