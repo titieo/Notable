@@ -55,7 +55,7 @@ jobs:
                   #   cache-dependency-path: ./bun.lock
             - uses: oven-sh/setup-bun@v2
               with:
-                  bun-version: 'lts' # or "latest"
+                  bun-version: 'latest' # or "latest"
             - name: Install
               run: bun install
             - name: Lint
