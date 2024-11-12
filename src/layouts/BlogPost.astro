@@ -15,11 +15,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 	</head>
 
-	<body style="background-image: url(/bg.svg)" class="bg-repeat-y w-screen min-h-100rem">
+	<body style="background-image: url(/bg.svg)" class="bg-repeat-y min-h-100rem text-blue-600">
 		<Header />
 		<main class="font-content mx-auto w-2/3 mt-12">
 			<article class="tracking-wide">
-				<div class="prose-xl lg:prose-2xl prose-headings:font-heading tracking-normal">
+				<div class="prose-xl lg:prose-2xl prose-headings:font-heading prose-headings:text-red-400 tracking-normal">
 					<div class="leading-none text-center">
 
 						<h1 class="mb-2">{title}</h1>
