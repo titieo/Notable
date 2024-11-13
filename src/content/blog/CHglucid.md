@@ -1,9 +1,9 @@
 ---
-title: 'Bài 1.1: Hóa học Glucid'
+title: 'Bài 4.1: Chuyển hoá Glucid'
 description: ''
 pubDate: 'Nov 12 2024'
 heroImage: '/blog-placeholder-3.jpg'
-tags: ['Hoá Sinh', 'blog']
+tags: ['Hoá Sinh']
 ---
 
 ### 1) Sự tiêu hoá và hấp thu glucid
