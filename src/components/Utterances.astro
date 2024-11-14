@@ -1,0 +1,21 @@
+<div id="utterances-container"></div>
+
+<script>
+  const script = document.createElement("script");
+  const container = document.querySelector("#utterances-container");
+const currentTheme = localStorage.getItem("theme");
+
+  Object.entries({
+    src: "https://utteranc.es/client.js",
+    repo: "titieo/notable",
+    "issue-term": "title",
+    label: "post comments",
+    // theme: "github-dark",
+    theme: currentTheme == "dark" ? "github-dark" : "github-light",
+    crossorigin: "anonymous",
+  }).forEach(([key, value]) => {
+    script.setAttribute(key, value);
+  });
+
+  container?.appendChild(script);
+</script>
