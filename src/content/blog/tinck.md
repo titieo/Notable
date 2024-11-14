@@ -37,17 +37,15 @@ T-test: 2 biến định lượng
   Bước 2: Nhập nội dung
   Bước 3: Nhấn tổ hợp phím Ctrl + Enter
 
-* MS Excel quy định hai kí tự đại diện (Wildcard) là gì?: *** và ?**
+* MS Excel quy định hai kí tự đại diện (Wildcard) là gì?: **\* và ?**
 
 * Trong Camtasia 8, để quy định khoảng thời gian mặc định cho một phụ đề (Caption) thì làm cách nào? **Tools → Options**
 
 * Trong Word, để giãn khoảng cách giữa hai đoạn thì dùng chức năng nào? **Spacing**
 
-* Để ghi âm kèm ghi hình từ webcam, trong Camtasia 8 ta chọn chức năng nào?
-  
-  **Tools → Record Camer**
+* Để ghi âm kèm ghi hình từ webcam, trong Camtasia 8 ta chọn chức năng nào?  **Tools → Record Camer**
 
-* Trong Word, để chèn số thứ tự phụ chú cho hình thì chọn chức năng nào/ **References → Insert Caption***
+* Trong Word, để chèn số thứ tự phụ chú cho hình thì chọn chức năng nào? **References → Insert Caption**
 
 * Trong PPT, để tạo chú thích thì dùng chức năng nào? **Insert → Shapes**
 
@@ -65,7 +63,7 @@ T-test: 2 biến định lượng
 
 * Trong word, để sao chép định dạng nhiều lần thì chọn lệnh nào? **Double click vào nút format painter**
 
-* Tìm chuỗi tìm kiếm thích hợp trên Pubmed với yêu cầu tìm các tài liệu của tạp chí The New England Journal of Medicine về phẫu thuật nội soi dạ dày(gastroscopy) **(The New England journal of medicine “[Journal] AND (gastroscopy[Title/Abstract]**
+* Tìm chuỗi tìm kiếm thích hợp trên Pubmed với yêu cầu tìm các tài liệu của tạp chí The New England Journal of Medicine về phẫu thuật nội soi dạ dày(gastroscopy) **(The New England journal of medicine [Journal] AND (gastroscopy[Title/Abstract]**
 
 * Tìm chuỗi tìm kiếm thích hợp trên Pubmed với yêu cầu tìm các tài liệu về nguyên nhân của bệnh nha chu (Periodontal Diseases): **“Periodontal Diseases/etiology”[Majr]**
 
@@ -89,7 +87,9 @@ T-test: 2 biến định lượng
 
 * Quan sát hình bên dưới, bạn thấy trong Navigation Pane có những dòng trống, tại sao?
   **Có thể do định dạng của dòng trên quy định Style for following paragraph là heading**
-  
+
   ![](/notable/tinck-nav.png)
 
 * Trong PPT, để tạo chú thích thì dùng chức năng nào? **Insert Shapes**
+
+* Trong Powerpoint, để chèn một nút Action Button liên kết thì ta chọn lệnh nào? **Insert -> Shapes**
