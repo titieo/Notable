@@ -98,7 +98,7 @@ The blockquote element represents content that is quoted from another source, op
 
 we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntax, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
 
-````markdown
+```markdown
 ```html
 <!doctype html>
 <html lang="en">
@@ -111,7 +111,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
   </body>
 </html>
 ```
-````
+```
 
 ### Output
 

@@ -12,15 +12,17 @@ Bà C không tập thể dục, vì cho rằng đã làm việc nhà nhiều, kh
 Bà cao 155 cm, nặng 68 kg, BMI = 28,3 (bình thường < 25). Mạch 80 lần/phút, đều rõ ở chi trên và dưới. Huyết áp 160/100 mmHg. Nhiệt độ 370C. Thở đều 18 lần/phút (bình thường < 20 lần/phút). SpO2 = 98% (bình thường > 95%). Nghe được âm thổi ở vùng cạnh cổ bên trái bằng ống nghe. Khám các cơ quan bình thường.
 
 Xét nghiệm máu
+
 * Total cholesterol 268 mg/dL (bình thường < 245 mg/dL), LDL (low density lipoprotein) = 190 mg/dL (bình thường < 100 mg/dL). Triglycerides 230 mg/dL (bình thường < 160 mg/dL). Glucose 105 mg/dL (70-110 mg/dL).
-Tổng phân tích nước tiểu bình thường.
-Điện tâm đồ cho thấy hình ảnh thiếu máu cơ tim thất trái.
-X quang ngực cho thấy phổi bình thường, và bóng tim bất thường với cung động mạch chủ phồng.
+  Tổng phân tích nước tiểu bình thường.
+  Điện tâm đồ cho thấy hình ảnh thiếu máu cơ tim thất trái.
+  X quang ngực cho thấy phổi bình thường, và bóng tim bất thường với cung động mạch chủ phồng.
 
 Siêu âm mạch máu vùng cổ 2 bên, mạch máu bụng thấy có một mảng xơ vữa d = 5 x 6 mm ở động mạch cảnh bên trái và 4 mảng xơ vữa d# 5 mm ở động mạch chủ bụng.
 
 Chụp điện toán cắt lớp nhiều lát cắt mạch vành và mạch máu ngực thấy: hẹp nhánh động mạch trước xuống trái # 70% và hẹp nhánh động mạch vành trái 30%; túi phình ở động mạch chủ ngực đoạn xuống, kích thước d = 25 mm.
 Bác sĩ chẩn đoán
+
 * Béo phì + Tăng cholesterol máu;
 * Cao huyết áp – Phình động mạch chủ ngực;
 * Bệnh động mạch vành – Thiếu máu cơ tim.
@@ -42,7 +44,6 @@ $$
 Δp = σ(\frac{1}{R_1} + \frac{1}{R_2})
 $$
 
-
 Δp: Áp suất phụ giữ máu và thành mạch (không đổi do các cơ chế của cơ thể) ⇒ Mặt thoáng là diện tiếp xúc giữa máu và thành mạch:
  Bình thường: Mặt trụ T=pR.
  Phình: Mặt cầu T=(pR)/2.
@@ -54,3 +55,5 @@ Trong Vật lý Y khoa: 1dyn/cm = 0.001 N/m;
 
 * Khi phình nhỏ ⇒ Vẫn còn là mặt trụ $T=pR$. Giả sử T tăng → R tăng. Hai yếu tố tạo vòng phản hồi dương → Dần tạo thành túi có dạng hình cầu tại vị trí động mạch yếu.
 * Khi phình thành túi hình cầu ⇒ Mặt cầu $T=\frac{pR}{2}$. Quá trình phình nhanh (T tăng bao nhiêu thì R lại tăng gấp đôi).
+
+> Chịu tác dụng của lực cang thành => Cả thành ĐM dãn theo chiều ngang (dọc nguyên thành)

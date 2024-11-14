@@ -20,14 +20,14 @@ const posts = (await getCollection('blog')).sort(
 		<Header />
 		<main>
 			<section>
-				<ul class="mx-auto grid grid-cols-3 group group-first:col-span-3 p-10 text-center max-w-max gap-8">
+				<ul class="mx-auto grid grid-cols-3 group group-first:col-span-3 p-5 text-center max-w-max gap-8">
 					{
 						posts.map((post) => (
-							<li class="rounded-lg bg-white border-black shadow-lg drop-shadow-md hover:shadow-xl hover:-translate-y-2 pb-2 duration-200 overflow-hidden max-w-none">
+							<li class="rounded-lg bg-white border-black shadow-lg drop-shadow-md hover:shadow-xl hover:-translate-y-2 pb-4 duration-200 overflow-hidden max-w-none">
 								<a class="no-underline font-GrowingGarden" href={`/notable/notes/${post.slug}/`}>
 									<img width={720} height={360} class="overflow-hidden w-96 h-60" src=`/notable/${post.data.heroImage}` alt="" />
-									<h3 class="bold mt-2 text-4xl">{post.data.title}</h3>
-									<p class="text-xl italic">
+									<h3 class="bold mt-4 text-4xl">{post.data.title}</h3>
+									<p class="text-xl italic font-serif">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
 								</a>

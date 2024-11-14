@@ -27,8 +27,8 @@ Glucose được khuếch tán tăng cường từ máu vào tế bào bằng c�
 * Glut 2 có trong tế bào gan, tuỵ, vận chuyển rất nhanh glucose vào tế bào gan và tuỵ khi nồng độ glucose trong máu tăng (sau ăn)
 * Glut 3 có trong tế bào não, vận chuyển glucose vào tế bào não ngay cả khi nồng độ glucose trong máu thấp
 * Glut 4 có trong cơ, mô mỡ, vận chuyển glucose vào tế bào cơ và mô mỡ, phụ thuộc vào nồng độ insulin
-Sự tổng hợp Glut 4 và ái lực của Glut 4 với glucose phụ thuộc vào insulin. Trường hợp kháng insulin, Glut 4 kém đáp ứng với insulin, làm cho màng tế bào ít thẩm thấu với glucose, thường gặp trong béo phì, ĐTĐ
-Con đường hexose diphosphat
+  Sự tổng hợp Glut 4 và ái lực của Glut 4 với glucose phụ thuộc vào insulin. Trường hợp kháng insulin, Glut 4 kém đáp ứng với insulin, làm cho màng tế bào ít thẩm thấu với glucose, thường gặp trong béo phì, ĐTĐ
+  Con đường hexose diphosphat
 
 ## I/. Con đường hexose diphosphat
 
@@ -69,6 +69,7 @@ Là quá trình đi ngược lại con đường đường phân, trừ 3 phản
 Xảy ra ở tế bào chất
 Ngược chiều đường phân (7 PU thuận nghịch)
 3 PU không thuận nghịch (1, 3, 10): nhờ các enzyme khác để đi các con đường khác
+
 <hr>
 Tốn kém cho tế bào, cho cơ thể.
 
@@ -83,13 +84,12 @@ Tân tạo glucose xảy ra chủ yếu ở gan, một phần rất nhỏ ở v�
 #### Enzymes
 
 1. Glycogen phosphorylase:
-(hoạt động chủ yếu) cắt LK α 1,4 - glycoside  glucose-1-P
+   (hoạt động chủ yếu) cắt LK α 1,4 - glycoside  glucose-1-P
 2. Glucan transferase
-chuyển 3 gốc glucose (1,4) sang nhánh khác, chừa ra LK 1,6- glycoside
+   chuyển 3 gốc glucose (1,4) sang nhánh khác, chừa ra LK 1,6- glycoside
 3. Enzyme cắt nhánh
-(hoạt động ít) cắt LK 1,6- glycoside  glucose tự do
-KẾT QUẢ:
-
+   (hoạt động ít) cắt LK 1,6- glycoside  glucose tự do
+   KẾT QUẢ:
 * 9/10 là G-1-P
 * 1/10 là glucose tự do
 
@@ -109,10 +109,12 @@ KẾT QUẢ:
 ### Tóm lại
 
 1. Thức ăn carbohydrat vào cơ thể được tiêu hóa nhờ các men, hấp thu từ ruột vào máu nhờ 2 cơ chế khuếch tán thụ động và vận chuyển tích cực thứ phát
+
 2. Con đường đường phân (HDP) xảy ra ở bào tương, qua 2 giai đoạn và 10 phản ứng. Ý nghĩa của con đường HDP là cung cấp năng lượng cho các hoạt động sống của tế bào và các sản phẩm trung gian là tiền chất để sinh tổng hợp các chất cho cơ thể.
 
 3. Con đường HMP là một cách thoái hóa khác của glucose 6- phosphat, xảy ra ở bào tương của tế bào, glucose được phosphoryl hóa 1 lần rồi bị oxy hóa. Ý nghĩa của con đường này là xảy ra ở các tế bào phân chia nhanh như tủy xương và da, niêm mạc ruột (tổng hợp RNA và DNA) cũng như quan trọng cho các tế bào cần NADPH để bảo vệ chống lại tác nhân oxy hóa (hồng cầu, võng mạc…) và cho quá trình sinh tổng hợp acid béo (mô mỡ, gan), cholesterol (gan, tuyến sinh dục, vỏ thượng thận).
 
 4. Quá trình tân tạo glucose là sự tạo thành glucose từ các sản phẩm chuyển hóa của glucid, lipid, protein; không phải từ các monosaccharid khác. Là quá trình đi ngược lại con đường đường phân, trừ 3 phản ứng không thuận nghịch đòi hỏi các phản ứng khác thay thế.
+
 5. Glycogen là dạng dự trữ của glucose trong cơ thể,
-tập trung nhiều ở gan và cơ, được tổng hợp và thoái hóa chủ yếu tại gan và cơ.
+   tập trung nhiều ở gan và cơ, được tổng hợp và thoái hóa chủ yếu tại gan và cơ.
